@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+.orange-highlight{
+    color: orange;
+}
+h1{
+    font-size: 65px;
+    color: dimgray;
+}
+
+p{
+    font-size: large;
+    color: dimgray;
+    padding-bottom: 50px;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+
+}
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);    
+    padding: 20px 40px;
+    border-radius: 30px;
+    
+}
+.profile img{
+    width: 57%;
+
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+
+.about-me{
+    background-image: url(images/shapes/7.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-recepie{
+    text-align: center;
+}
+.recepie{
+    display: flex;
+}
+
+.one-third{
+    width: 25%;
+    height: 430px;
+    border-radius: 20px;
+    float: left;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    margin-left: 80px;
+    background-color: white;
+}
+.one-third img{
+    width: 100%;
+}
+
+
+.follower-section{
+    box-shadow: 0px 4px 8px gray;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 30px;
+    padding-left: 10%;
+    border-radius: 20px;
+}
+.follower{
+    width: 33%;
+    float: left;
+
+}
+
+
+#review-title{
+    text-align: center;
+}
+.review{
+    height: 300px;
+    margin-bottom: 50px;
+}
+.client-review{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px black;
+    height: 250px;
+    border-radius: 20px;
+    text-align: justify;
+    
+}
+.client-review img{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+footer{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+footer p{
+    color: white;
+}
